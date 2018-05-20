@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShop.Manager.Api", "FoodShop.Manager.Api\FoodShop.Manager.Api.csproj", "{939ADC6E-1FEB-40EC-A9B3-F777AB37B027}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShop.Manager.Entities", "FoodShop.Manager.Entities\FoodShop.Manager.Entities.csproj", "{632B664F-888A-41DD-92A1-B760449E0064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShop.Manager.DataAccess", "FoodShop.Manager.DataAccess\FoodShop.Manager.DataAccess.csproj", "{4219D8B5-C5BA-4A9D-AB5B-F5D10CD785EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodShop.Manager.Services", "FoodShop.Manager.Services\FoodShop.Manager.Services.csproj", "{D5DAD32C-F86D-4693-A207-550C512633E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodShop.Manager.Common", "FoodShop.Manager.Common\FoodShop.Manager.Common.csproj", "{3CAF2018-0D16-493C-A1F6-DF1611DC1FBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{939ADC6E-1FEB-40EC-A9B3-F777AB37B027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939ADC6E-1FEB-40EC-A9B3-F777AB37B027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939ADC6E-1FEB-40EC-A9B3-F777AB37B027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939ADC6E-1FEB-40EC-A9B3-F777AB37B027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632B664F-888A-41DD-92A1-B760449E0064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632B664F-888A-41DD-92A1-B760449E0064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632B664F-888A-41DD-92A1-B760449E0064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632B664F-888A-41DD-92A1-B760449E0064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4219D8B5-C5BA-4A9D-AB5B-F5D10CD785EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4219D8B5-C5BA-4A9D-AB5B-F5D10CD785EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4219D8B5-C5BA-4A9D-AB5B-F5D10CD785EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4219D8B5-C5BA-4A9D-AB5B-F5D10CD785EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DAD32C-F86D-4693-A207-550C512633E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DAD32C-F86D-4693-A207-550C512633E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DAD32C-F86D-4693-A207-550C512633E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DAD32C-F86D-4693-A207-550C512633E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CAF2018-0D16-493C-A1F6-DF1611DC1FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CAF2018-0D16-493C-A1F6-DF1611DC1FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CAF2018-0D16-493C-A1F6-DF1611DC1FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CAF2018-0D16-493C-A1F6-DF1611DC1FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {421C776C-D51B-4353-A4F9-CF7384705347}
+	EndGlobalSection
+EndGlobal

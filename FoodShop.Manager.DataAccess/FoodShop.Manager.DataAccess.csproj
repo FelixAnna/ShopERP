@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.1.0-rc1-final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.UnitOfWork" Version="2.0.4" />
+    <PackageReference Include="sqlite" Version="3.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodShop.Manager.Entities\FoodShop.Manager.Entities.csproj" />
+    <ProjectReference Include="..\FoodShop.Manager.Services\FoodShop.Manager.Services.csproj" />
+  </ItemGroup>
+
+</Project>
